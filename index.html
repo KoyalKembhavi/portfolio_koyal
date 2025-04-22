@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div style="font-size: 1rem; color: rgb(147, 70, 219), ">KOYAL KEMBHAVI</div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi! My name is <span class="purple">Koyal Kembhavi</span>
+                <div>
+                    and I am a First Year
+                </div>
+                <div>student at PICT.</div>
+            </div>
+            <div class="rightSection">
+                <img src="koyal.jpeg">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have learnt so far</span>
+            <h1 id="skills">Skills</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="py.png" alt="">
+                    <div class="veritcal-title">
+                        PYTHON
+                    </div>
+                    <div class="veritcal-desc">
+                        Gained a strong foundation in Python, covering esssential
+                        concepts such as data types, control structures, functions
+                        and file handling.
+                        Worked with popular libraries like NumPy, Pandas and Matplotlib.
+                    </div>
+                </div>
+                <div class="vertical"> <img class="image-top" src="cpp.png" alt="">
+                    <div class="veritcal-title">
+                        C++
+                    </div>
+                    <div class="veritcal-desc">
+                        Developed a solid understanding of C++ fundamentals including 
+                        variables, loops, conditional statements, functions, arrays, 
+                        pointers, and object-oriented principles like classes and inheritance.
+                         Familiar with basic problem-solving and memory management.  
+                    </div>
+                </div>
+                <div class="vertical"> <img class="image-top" src="sql.png" alt="">
+                    <div class="veritcal-title">
+                        SQL
+                    </div>
+                    <div class="veritcal-desc">
+                        Acquired foundational knowledge of SQL, including writing queries
+                        to retrieve, filter, and manipulate data. Experienced with basic
+                        database operations such as JOINs, subqueries, and aggregate functions.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <h1 id="about">About Me</h1>
+                <p>
+                  Hey! I’m an aspiring web developer and an Information Technology (IT) major at Pune Institute of Computer Technology. 
+                </p>
+                <p>
+                  Outside of coding, I'm usually diving into something creative — sketching, crocheting, painting, or getting lost in a good book. I like to keep my curious side alive, whether it’s through design, color, or story.
+                </p>
+             
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <h1 id="project">Projects</h1>
+           <h2>1. Personal Portfolio Website</h2>
+                <p>
+                  A fully responsive and modern web portfolio designed to showcase my skills, projects, and contact information.
+                  Built with HTML, CSS, and JavaScript, the site reflects a clean aesthetic and emphasizes user experience.
+                  It serves as both a professional resume and a creative hub for my ongoing work.
+                </p>
+              </div>
+          
+              <div style="margin-bottom: 40px;">
+                <h3>2. SpaceDodge – Pygame Arcade Game</h3>
+                <p>
+                  An engaging 2D arcade-style game developed using Python and the Pygame library. In <em>SpaceDodge</em>,
+                  players navigate a spaceship to avoid falling asteroids, testing their reflexes and precision.
+                  The game features dynamic difficulty scaling and score tracking all built from scratch.
+                </p>
+              </div>
+            </div>
+          </section>
+          
+    </main>
+
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <div id="contact-links">
+          <button onclick="contact('email')">Email</button>
+          <button onclick="contact('linkedin')">LinkedIn</button>
+          <button onclick="contact('github')">GitHub</button>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+</body>
+
+</html>
